@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="https://static.vecteezy.com/system/resources/previews/000/610/622/original/vector-home-furniture-logo-design-concept-template.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Gupter:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sankofa+Display&display=swap" rel="stylesheet">
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    body{
+        font-family: "Grey Qo", cursive;
+  font-weight: 400;
+  font-style: normal;
+    }
+    h1{
+        font-family: "Grey Qo", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+</style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bolder fs-4" href="#">Wooden Street</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        <div class="row ">
+            <div class="col text-center mt-3 row d-flex flex-sm-row ">
+                <i class="fa-solid fa-store"></i>
+                <p>Stores</p>
+            </div>
+            <div class="col text-center mt-3 row d-flex flex-sm-row ">
+                <i class="fa-regular fa-user"></i>
+                <p>Profile</p>
+            </div>
+            <div class="col text-center mt-3 row d-flex flex-sm-row ">
+                <i class="fa-regular fa-heart"></i>
+                <p>Wishlist</p>
+            </div>
+            <div class="col text-center mt-3 row d-flex flex-sm-row ">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p>Cart</p>
+            </div>
+        </div>
+      </nav>
+      <hr>
+      <!-- varbar2 -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-5">
+              <li class="nav-item mx-5">
+                <a class="nav-link active" aria-current="page" href="#">Sofas</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active" href="#">Living</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active" aria-current="page" href="#">Bedroom</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active" href="#">Storage</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active" aria-current="page" href="#">Study&Office</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active" href="#">Mattresses</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active" aria-current="page" href="#">Decor</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active" href="#">Outdoor</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active" aria-current="page" href="#">WS value</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link active" href="#">Furnishings</a>
+              </li>
+             
+          </div>
+        </div>
+      </nav>
+      <hr>
+      <!-- Carousel -->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img width="100%" height="500px" src="https://www.hdwallpaper.nu/wp-content/uploads/2017/03/furniture-21.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img width="100%" height="500px" src="https://3.imimg.com/data3/MB/HE/MY-19271267/wooden-dining-hall-sofa.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img width="100%" height="500px" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/amazon-rivet-furniture-1533048038.jpg?crop=1.00xw:0.502xh;0,0.423xh&resize=1200:*" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Rounded image -->
+       <div class="row mt-3">
+        <h1 class="text-center">Top Picks For You</h1>
+        <p class="text-center">Impressive Collection For Your Dream Home</p>
+        <div class="col-3 text-center">
+            <img class="rounded-circle" width="150px" height="150px" src="https://images.woodenstreet.de/image/data/tv-units-mdf/hailey-wall-mounted-tv-unit/exotic/front.jpg" alt="">
+            <p>Tv Units</p>
+        </div>
+        <div class="col-3 text-center">
+            <img class="rounded-circle" width="150px" height="150px" src="https://i.pinimg.com/originals/79/f7/71/79f771fbd2250f48ebfd0d4d3ea4aeac.jpg" alt="">
+            <p>Book Shelves</p>
+        </div>
+        <div class="col-3 text-center">
+            <img class="rounded-circle" width="150px" height="150px" src="https://wakefitdev.gumlet.io/img/study-tables/lifestyle/nayena.jpg" alt="">
+            <p>Study Tables</p>
+        </div>
+        <div class="col-3 text-center">
+            <img class="rounded-circle" width="150px" height="150px" src="https://houseandhome.com/wp-content/uploads/2017/05/Cropped_Shop_Like_An_HH_Editor_Provide2.jpg" alt="">
+            <p>Home Decor</p>
+        </div>
+       </div>
+       <div class="row mt-3">
+        <div class="col-3 text-center">
+            <img class="rounded-circle" width="150px" height="150px" src="https://ecommercephotographyindia.com/assets/img/gallery/furniture-product-photography.jpg" alt="">
+            <p>chair</p>
+        </div>
+        <div class="col-3 text-center">
+            <img class="rounded-circle" width="150px" height="150px" src="https://www.nilkamalfurniture.com/cdn/shop/files/SVELTE2strLS.jpg?v=1688729987&width=720" alt="">
+            <p>sofa sets</p>
+        </div>
+        <div class="col-3 text-center">
+            <img class="rounded-circle" width="150px" height="150px" src="https://images.furnituredealer.net/img/products/coaster/color/upholstered%20beds%20-%20coaster_300529q-b1.jpg" alt="">
+            <p>Beds</p>
+        </div>
+        <div class="col-3 text-center">
+            <img class="rounded-circle" width="150px" height="150px" src="https://www.decornation.in/wp-content/uploads/2020/03/solid-wooden-4-chair-dining-table.jpg" alt="">
+            <p>chair</p>
+        </div>
+       </div>
+       <!-- Card -->
+        <h1 class="m-4 mt-3">Explore Essential Home Furniture</h1>
+        <p class="mx-4">Design Your Home Decor Your Way</p>
+        <div class="row">
+            <div class="col-3 p-5">
+                <div class="card" style="width: 18rem;">
+                    <img width="250px" height="250px" src="https://m.media-amazon.com/images/I/81CUTFDpwIL.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sofa sets</h5>
+                      <p class="card-text">from Rs 20,199</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3 p-5">
+                <div class="card" style="width: 18rem;">
+                    <img width="250px" height="250px" src="https://www.claytonscarpets.co.uk/images/shop/more/2000x2000_11148_270177a321fc7ae2a286a84b5a1c6af9_1611066558StresslessTokyoreclin.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Setting & Chairs</h5>
+                      <p class="card-text">from Rs 1,849</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3 p-5">
+                <div class="card" style="width: 18rem;">
+                    <img width="250px" height="250px" src="https://exzibit.net/wp-content/uploads/2018/11/newest-6-seater-glass-dining-table-sets-e280a2-table-setting-ideas-inside-6-seater-glass-dining-table-sets.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">6 Seater Dining Table Sets</h5>
+                      <p class="card-text">from Rs 20,199</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3 p-5">
+                <div class="card" style="width: 18rem;">
+                    <img width="250px" height="250px" src="https://i5.walmartimages.com/asr/585440c9-1b27-4155-812b-a9cc862b9f94.119574671d667b373a16bf58b6d34987.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lamps & Lightings</h5>
+                      <p class="card-text">from Rs 20,199</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 p-5">
+                <div class="card" style="width: 18rem;">
+                    <img width="250px" height="250px" src="https://images.woodenstreet.de/image/data/tv-units-mdf/hailey-wall-mounted-tv-unit/exotic/front.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tv Units</h5>
+                      <p class="card-text">from Rs 20,199</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3 p-5">
+                <div class="card" style="width: 18rem;">
+                    <img width="250px" height="250px" src="https://images.woodenstreet.de/image/cache/data/wardrobe/allan-2-1-wardrobe/re-revised/honey/updated/honey1-750x650.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Alamari</h5>
+                      <p class="card-text">from Rs 20,199</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3 p-5">
+                <div class="card" style="width: 18rem;">
+                    <img width="250px" height="250px" src="https://m.media-amazon.com/images/I/81CUTFDpwIL.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Sofa sets</h5>
+                      <p class="card-text">from Rs 20,199</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3 p-5">
+                <div class="card" style="width: 18rem;">
+                    <img width="250px" height="250px" src="https://i5.walmartimages.com/asr/1c45936e-a8ad-4710-8688-c79d489428f7.1afa04db234de52fcf93aee1682cb053.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Beds</h5>
+                      <p class="card-text">from Rs 20,199</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <!-- card2 -->
+        <h3 class="text-center">95+ Experience Stores Across India</h3>
+        <p class="text-center">OFFER Get UPTO 10% OFF* onn orders placed at your nearest stores</p>
+         <div class="row p-3">
+          <div class="col-3">
+            <div class="card position-relative">
+              <img width="200px" height="250px" src="https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2022-02/wooden%20street%20Bangalore%20Store%20(3).jpg" class="card-img-top" alt="...">
+              <div class="text-light position-absolute bottom-0 end-50">
+                <p class="fs-5">Bangalore</p>
+                <p class="m-0">18 Stores</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card position-relative">
+              <img width="200px" height="250px" src="https://textilevaluechain.in/wp-content/uploads/2022/03/WOODEN-STREET-01.jpg" class="card-img-top" alt="...">
+              <div class="text-light position-absolute bottom-0 end-50">
+                <p class="fs-5">Mumbai</p>
+                <p class="m-0">18 Stores</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card position-relative">
+              <img width="200px" height="250px" src="https://c8.alamy.com/comp/DAXR49/high-angle-view-of-street-packed-with-traffic-charminar-bazaar-hyderabad-DAXR49.jpg" class="card-img-top" alt="...">
+              <div class="text-light position-absolute bottom-0 end-50">
+                <p class="fs-5">Hyderabad</p>
+                <p class="m-0">18 Stores</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card position-relative">
+              <img width="200px" height="250px" src="https://images.woodenstreet.de/image/data/store%20page/new/exterior%20im/new/finalnew/3.jpg" class="card-img-top" alt="...">
+              <div class="text-light position-absolute bottom-0 end-50">
+                <p class="fs-5">Chennai</p>
+                <p class="m-0">18 Stores</p>
+              </div>
+            </div>
+          </div>
+         </div>
+         <div class="row p-3">
+          <div class="col-3">
+            <div class="card position-relative">
+              <img width="200px" height="250px" src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/2018/07/06122930/06072018_laxmi_road_01.jpg" class="card-img-top" alt="...">
+              <div class="text-light position-absolute bottom-0 end-50">
+                <p class="fs-5">Pune</p>
+                <p class="m-0">15 Stores</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card position-relative">
+              <img width="200px" height="250px" src="https://thumbs.dreamstime.com/z/street-life-old-delhi-india-streets-place-to-be-where-everything-happening-one-minute-city-crowdy-96143472.jpg" class="card-img-top" alt="...">
+              <div class="text-light position-absolute bottom-0 end-50">
+                <p class="fs-5">Delhi</p>
+                <p class="m-0">19 Stores</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card position-relative">
+              <img width="200px" height="250px" src="https://blog.woodenstreet.com/images/data/image_upload/1525954105cover.jpg" class="card-img-top" alt="...">
+              <div class="text-light position-absolute bottom-0 end-50">
+                <p class="fs-5">Jaipur</p>
+                <p class="m-0">28 Stores</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card position-relative">
+              <img width="200px" height="250px" src="https://im.whatshot.in/img/2019/Mar/9-1552036177.jpg" class="card-img-top" alt="...">
+              <div class="text-light position-absolute bottom-0 end-50">
+                <p class="fs-5">Kolkata</p>
+                <p class="m-0">10 Stores</p>
+              </div>
+            </div>
+          </div>
+         </div>
+         <!-- carousel-Review -->
+          <section class="mt-3 p-3">
+            <h1 class="text-center">Their Words Our Pride</h1>
+            <p class="text-center">Happy Words of our Happy Customers</p>
+         <div id="carouselExample1" class="carousel slide d-flex ">
+          <div class="carousel-inner">
+            <div class="card" style="width: 18rem;">
+              <img width="250px" height="250px" src="https://i5.walmartimages.com/asr/985dc901-64d7-4c8a-8e6d-4bcda0d16207_1.f89db5bd43f2680031bc262cbba04d1d.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Book Shelves</h5>
+                <p class="card-text">Book Nooks: The bookshelves curved like ancient trees. I found a leather-bound tome titled Spells for Stubborn Socks—a must-read for anyone with mismatched hosiery. Elowen assured me it was a bestseller among forest sprites.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+           
+          </div>
+
+          <div class="carousel-inner">
+            <div class="card" style="width: 18rem;">
+              <img width="250px" height="250px" src="https://i5.walmartimages.com/asr/8272fbd3-d5f4-490a-a689-70178a08686a_1.f9107b1338002c46c10f6550fa17c00e.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chair</h5>
+                <p class="card-text">The Rocking Chair: Ah, the rocking chair! It swayed gently, as if remembering lullabies sung by generations. I sat, and suddenly, I was cradling a baby dragon, humming tunes only dragons know.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+           
+          </div>
+
+          <div class="carousel-inner">
+            <div class="card" style="width: 18rem;">
+              <img width="250px" height="250px" src="https://secure.img1-cg.wfcdn.com/im/05234996/compr-r85/2099/209999211/modern-stylish-dining-table-rectangle-white-sintered-stone-top.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dining Table</h5>
+                <p class="card-text">The Dining Tables: Each table had a story etched into its grain. The “Moonlit Grove” table promised moonlit feasts and secret dances. The “Wandering Roots” table had hidden compartments for love letters and midnight snacks. I bought both.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+           
+          </div>
+          <div class="carousel-inner">
+            <div class="card" style="width: 18rem;">
+              <img width="250px" height="250px" src="https://m.media-amazon.com/images/I/81CUTFDpwIL.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sofa sets</h5>
+                <p class="card-text">The Sofas: The sofas were like marshmallow clouds—soft, inviting, and possibly enchanted. I sank into one, and suddenly, I was sipping tea with a friendly dragon. The upholstery whispered tales of lost kingdoms and cozy Sunday afternoons.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+           
+          </div>
+          <button class="carousel-control-prev btn btn-light" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next btn btn-light" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <hr>
+        </section>
+        <!-- footer -->
+         <div class="row mt-4">
+          <div class="col-1"></div>
+          <div class="col-1">
+           <h2 class="ps-5 pt-2"> <i class="fa-solid fa-shop"></i></h1>
+          </div>
+          <div class="col-1">
+            <h5 class="m-0">95+</h5>
+            <p style="font-size: x-small;" class="mb-5 pb-5">Experice Stores Across India</p>
+          </div>
+          
+
+          <div class="col-1">
+           <h2 class="ps-5 pt-2"> <i class="fa-solid fa-truck"></i></h1>
+          </div>
+          <div class="col-1">
+            <h5 class="m-0">350+</h5>
+            <p style="font-size: x-small;" class="mb-5 pb-5">Delivery Centers Across India</p>
+          </div>
+
+      
+          <div class="col-1">
+           <h2 class="ps-5 pt-2"> <i class="fa-regular fa-thumbs-up"></i></h1>
+          </div>
+          <div class="col-1">
+            <h5 class="m-0">10 Lakh+</h5>
+            <p style="font-size: x-small;" class="mb-5 pb-5">Satisfied Customers</p>
+          </div>
+
+         
+          <div class="col-1">
+           <h2 class="ps-5 pt-2"> <i class="fa-solid fa-certificate"></i></h1>
+          </div>
+          <div class="col-1">
+            <h5 class="m-0">Lowest Price</h5>
+            <p style="font-size: x-small;" class="mb-5 pb-5">Guarantee</p>
+          </div>
+
+          
+          <div class="col-1">
+           <h2 class="ps-5 pt-2"> <i class="fa-regular fa-thumbs-up"></i></h1>
+          </div>
+          <div class="col-1">
+            <h5 class="m-0">36 Months</h5>
+            <p style="font-size: x-small;" class="mb-5 pb-5">Warranty</p>
+          </div>
+          <!-- <div class="col-1"></div> -->
+
+         </div>
+         
+         <div style="background-color: lightgray;" class="row">
+          <div class="col-1"></div>
+          <div class="col-2 d-flex flex-sm-column text-dark">
+            <p class="fw-bolder fs-5">Our Company</p>
+            <a class="text-decoration-none text-dark" href="">About us</a>
+            <a class="text-decoration-none text-dark" href="">Career</a>
+            <a class="text-decoration-none text-dark" href="">Media</a>
+            <a class="text-decoration-none text-dark" href="">Blog</a>
+            <a class="text-decoration-none text-dark" href="">Customer Stories</a>
+            <a class="text-decoration-none text-dark" href="">Our Stores</a>
+          </div>
+          <div class="col-2 d-flex flex-sm-column">
+            <p class="fw-bolder fs-5">Useful Links</p>
+            <a class="text-decoration-none text-dark" href="">custom Furniture</a>
+            <a class="text-decoration-none text-dark" href="">Expoters</a>
+            <a class="text-decoration-none text-dark" href="">Buy in Bulk</a>
+            <a class="text-decoration-none text-dark" href="">Hotel Furniture</a>
+            <a class="text-decoration-none text-dark" href="">Delivary Location</a>
+            <a class="text-decoration-none text-dark" href="">Sitemap</a>
+          </div>
+
+          <div class="col-2 d-flex flex-sm-column">
+            <p class="fw-bolder fs-5">SHOP BY ROOM</p>
+            <a class="text-decoration-none text-dark" href="">Living Room</a>
+            <a class="text-decoration-none text-dark" href="">Bedroom</a>
+            <a class="text-decoration-none text-dark" href="">Dining Room</a>
+            <a class="text-decoration-none text-dark" href="">Kids Room</a>
+            <a class="text-decoration-none text-dark" href="">Modular Furniture</a>
+            <a class="text-decoration-none text-dark" href="">Modular Kitchen</a>
+            <a class="text-decoration-none text-dark" href="">Modular Wardrobe</a>
+          </div>
+
+          <div class="col-2 d-flex flex-sm-column">
+            <p class="fw-bolder fs-5">PARTNERS</p>
+            <a class="text-decoration-none text-dark" href="">Become a Franchise</a>
+            <a class="text-decoration-none text-dark" href="">Sell on Wooden Street</a>
+            <a class="text-decoration-none text-dark" href="">Design Partner</a>
+            <p class="mt-5 fw-bolder fs-5">TRUSTED BY</p>
+            <a class="text-decoration-none text-dark" href=""> QRO Certified</a>
+            <a class="text-decoration-none text-dark" href="">Ukcert Certified</a>
+            <a class="text-decoration-none text-dark" href="">Our Stores</a>
+          </div>
+
+          <div class="col-2 d-flex flex-sm-column">
+            <p class="fw-bolder fs-5">NEED HELP</p>
+            <a class="text-decoration-none text-dark" href="">Help Center</a>
+            <a class="text-decoration-none text-dark" href="">Contact Us</a>
+            <a class="text-decoration-none text-dark" href="">Ask Experts</a>
+            <a class="text-decoration-none text-dark" href="">Track your order</a>
+            
+          </div>
+          <div class="col-1"></div>
+         </div>
+
+        
+         
+          
+          
+</body>
+</html>
